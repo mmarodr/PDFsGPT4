@@ -36,7 +36,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Move PDF to Destination
-        run: mv C:\Users\ZCFV\OneDrive - PETROBRAS\Documents\Phyton\PDF_GPT4\apostila-metodo-fridrich-cubo-magico-3x3x3-avancado.pdf _site/
+        run: cp -r C:\Users\ZCFV\OneDrive - PETROBRAS\Documents\Phyton\PDF_GPT4\apostila-metodo-fridrich-cubo-magico-3x3x3-avancado.pdf _site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
